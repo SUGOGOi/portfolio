@@ -101,22 +101,22 @@
                 }
 
             }
-        //     .intro-arrow{
-        //     a{
-        //         position: absolute;
-        //         bottom: 10px;
-        //         left: 40%;
-        //         img{
-        //             width: 30px;
-        //             animation: arrowBlink 2s infinite ease-in-out alternate;
-        //         }
+            .intro-arrow{
+            a{
+                position: absolute;
+                bottom: 10px;
+                left: 40%;
+                img{
+                    width: 30px;
+                    animation: arrowBlink 2s infinite ease-in-out alternate;
+                }
 
-        //         @keyframes arrowBlink {
-        //             to{
-        //                 transform: translateY(-10px);
-        //             }
-        //         }
-        //     }
-        // }
+                @keyframes arrowBlink {
+                    to{
+                        transform: translateY(-10px);
+                    }
+                }
+            }
+        }
         }
 }
