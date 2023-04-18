@@ -24,9 +24,12 @@ const Intro = () => {
                     <h1>Sumsum Gogoi</h1>
                     <h3> <span >{text}</span> <span style={{ color: "rgb(61, 186, 235)" }} ><Cursor cursorStyle="|" /></span> </h3>
                 </div>
-                <a href="#about">
-                    <img src={down} alt="" />
-                </a>
+                <div className="intro-arrow">
+                    <a href="#about">
+                        <img src={down} alt="" />
+                    </a>
+                </div>
+
             </div>
         </div>
     )

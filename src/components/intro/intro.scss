@@ -37,8 +37,8 @@
             @include mobile{
                 align-items: center;
                 box-shadow: 0 0 10px rgb(70, 192, 240);
-                width: 350px;
-                height: 350px;
+                width: 330px;
+                height: 330px;
 
             }
 
@@ -101,6 +101,7 @@
                 }
 
             }
+            .intro-arrow{
             a{
                 position: absolute;
                 bottom: 10px;
@@ -116,5 +117,6 @@
                     }
                 }
             }
+        }
         }
 }
