@@ -1,0 +1,14 @@
+
+
+.portfolioList {
+        font-size: 15px;
+        margin-right: 5px;
+        padding: 9px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &.port-active {
+            background-color: rgb(62, 62, 212);
+            color: white;
+        }
+    }
