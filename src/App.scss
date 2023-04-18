@@ -15,9 +15,7 @@
             display: none;
         }
 
-        .foot{
-            height: 30vh;
-        }
+       
 
         > *{
             width: 100vw;
@@ -25,5 +23,8 @@
             scroll-snap-align: start;
 
         }
+                 .foot {
+                     height: 30vh;
+                 }
     }
 }
