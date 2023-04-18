@@ -5,6 +5,7 @@
 
 .intro{
     display: flex;
+    overflow-y: hidden;
     @include mobile{
         flex-direction: column;
         align-items: center;
