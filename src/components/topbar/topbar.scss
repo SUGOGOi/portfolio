@@ -27,6 +27,7 @@ $bp:(
     top: 0;
     z-index: 3;
     transition: all 1s ease;
+    overflow-y: hidden;
     
     
 
@@ -37,6 +38,7 @@ $bp:(
         justify-content: space-evenly;
         align-items: center;
         // border: 2px solid red;
+        overflow-y: hidden;
         height: 10vh;
         a{
             color: white;
